@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+</style>
+	<br>
+    <br>
+    <title>A Design of Piggery Management System for Heat Stress</title>
+<style type="text/css">
+    body{
+        background-image: url("https://illustrationagent.com/wp-content/uploads/2020/02/3D-Cute-Cartoon-Pig-Creature-Illustration-scaled.jpg");
+    }
+</style>
+</head>
+<body>
+    <h1 style="font-family:'Courier New'">A Design of Piggery Management System for Heat Stress</h1>
+    <br>
+    <p style="font-family:'Courier New'">The project is a microcontroller-controlled system that can detect, prevent, and treat pigs suffering from heat stress. The thermal camera will detect heat emanating from a pig's body and transmit it to the microcontroller as an input. Additionally, it is stored in the system's database for the purpose of logging data that is useful to the Piggery Management System.</p>
+    <center>
+    <div class="container">
+  <label for="currentDate">Date:</label>
+  <input id="currentDate">
+  <script>
+    var today = new Date();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    document.getElementById("currentDate").value = date;
+  </script>
+  <br><br>
+  <label for="currentTime">Time:</label>
+  <input id="currentTime">
+  <script>
+    var today = new Date();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      document.getElementById("currentTime").value = time;
+    </script>
+    <br><br>
+
+
+  <label for="temp">Temperature: 32 degree</label><br><br>
+
+  <label for="hum">Humidity: 56%</label>
+  
+   </center>
+</form>
+</body>
+<style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      text-align: center;
+    }
+    </style>
+    
+    <div class="footer">
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            Group 10
+        </div>
+    </div>
+</html>
